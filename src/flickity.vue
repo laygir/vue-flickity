@@ -16,7 +16,7 @@ export default {
     this.init();
   },
 
-  beforeDestroy() {
+  destroyed() {
     this.$flickity.destroy();
     this.$flickity = null;
   },
