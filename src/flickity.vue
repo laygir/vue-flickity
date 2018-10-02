@@ -16,11 +16,6 @@ export default {
     this.init();
   },
 
-  destroyed() {
-    this.$flickity.destroy();
-    this.$flickity = null;
-  },
-
   methods: {
     /**
      * Initialize a new flickity and emit init event.
